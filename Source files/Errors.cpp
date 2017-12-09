@@ -6,52 +6,52 @@ void getError(Errors code)
 {
 	switch (code) {
 	case ZERO_ARR:
-		cout << "Вы ввели массив, состоящий из одних нулей! "
+		cout << "You have entered an array consisting of only zeros!"
 			<< endl;
 		break;
 
 	case UNKNOWN_SYMBOL:
-		cout << "Вы ввели массив, содержащий неизвестный элемент! "
+		cout << "You have entered an array containing an unknown symbol!"
 			<< endl;
 		break;
 
 	case HOLE:
-		cout << "Вы ввели элемент, содержащий отверстие! "
+		cout << "You entered an element containing a hole!"
 			<< endl;
 		break;
 
 	case NO_FILE:
-		cout << "Файл не найден! "
+		cout << "File not found! "
 			<< endl;
 		break;
 
 	case NOT_SINGLE:
-		cout << "Элемент не единственный! "
+		cout << "The element is not the only one!"
 			<< endl;
 		break;
 
 	case WRONG_SIDE_SIZE:
-		cout << "Неверный размер массива! "
+		cout << "Wrong array size!"
 			<< endl;
 		break;
 
 	case NEED_HELP:
-		cout << "Использование: ./a.out <Путь до входного файла> <Путь до выходного файла>"
+		cout << "Usage: ./a.out <Path to input file> <Path to output file>"
 			<< endl;
 		break;
 
 	case INVALID_AREA:
-		cout << "Входные фигуры нельзя уместить в прямоугольник! "
+		cout << "Input figures can not be placed in a rectangle!"
 			<< endl;
 		break;
 
 	case NO_ANSWER:
-		cout << "Решение не найдено! "
+		cout << "No solution found!"
 			<< endl;
 		break;
 
 	case WIN:
-		cout << "Решение найдено! "
+		cout << "A solution is found!"
 			<< endl;
 		break;
 

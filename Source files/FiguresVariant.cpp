@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "FiguresVariant.hpp"
 
 FiguresVariant::~FiguresVariant()

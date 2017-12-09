@@ -10,7 +10,6 @@
 
 using namespace std;
 
-// Класс фигур
 class Figures
 {
 public:
@@ -41,7 +40,6 @@ public:
 	int getArea();
 	size_t getSize();
 
-	// Вспомогательные функции
 
 	static vector<vector<int>> getZeroSquareArray(size_t);
 	Figures& operator = (const Figures&);
@@ -71,7 +69,6 @@ private:
 	void pushToBufferElementHoods(stack<Coordinates>&, Coordinates);
 	void printArray(vector<vector<int>>);
 
-	// Вспомогательные функции
 
 	void fillAreaAroundByUnits(Coordinates);
 	vector<vector<int>> getHelpArray(vector<vector<int>>);

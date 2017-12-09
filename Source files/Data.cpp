@@ -80,7 +80,7 @@ bool Data::inputDataFromFile(ifstream& input, ofstream& output)
 	size_t number_of_figures = 0;
 	size_t square_size = 0;
 
-	//количество фигур на ввод
+	
 	input >> number_of_figures;
 
 	for (int i = 0; i < number_of_figures; i++)
@@ -88,10 +88,10 @@ bool Data::inputDataFromFile(ifstream& input, ofstream& output)
 		int figure_id = 0;
 		int number_of_figures = 0;
 
-		// Cчитываем id фигуры
+		
 		input >> figure_id;
 
-		// Cторона массива
+		
 		input >> square_size;
 
 		if (square_size <= 0)
@@ -100,7 +100,7 @@ bool Data::inputDataFromFile(ifstream& input, ofstream& output)
 			return false;
 		}
 
-		// Количество фигур
+		
 		input >> number_of_figures;
 
 		vector<vector<int>> binary_performance = Figures::getZeroSquareArray(square_size);
@@ -113,7 +113,7 @@ bool Data::inputDataFromFile(ifstream& input, ofstream& output)
 			}
 		}
 
-		//конструктор выполняет проверку на корректность данных
+		
 		Figures item(binary_performance);
 
 		if (item.is_correct)
@@ -207,7 +207,7 @@ bool Data::getValidSizes(size_t area, size_t min_size_i, size_t min_size_j)
 
 bool Data::tryLocalOptimum()
 {
-	// Пробегаем все возможные размеры прямоугольника
+	
 	for (int j = 0; j < valid_sizes.size(); j++)
 	{
 		condition_tree.clear();

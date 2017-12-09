@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "Substring.hpp"
 
 Substring::Substring(string str,

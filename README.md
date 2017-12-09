@@ -1,6 +1,6 @@
 # Polymino
 [![Build Status](https://travis-ci.org/BMSTU732/Polymino.svg?branch=master)](https://travis-ci.org/BMSTU732/Polymino)
-
+[![Build status](https://ci.appveyor.com/api/projects/status/alghmu7qcj8md5gi?svg=true)](https://ci.appveyor.com/project/BMSTU732/Polymino)
 
 Поставновка задачи:
 

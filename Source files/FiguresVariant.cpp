@@ -22,9 +22,9 @@ FiguresVariant::FiguresVariant(string base, Figures figure) :
 				end = true;
 
 				Substring common(data_group_performance,
-					i,                       //rotation
-					0,                       //index in polymino
-					0);                      //index in field
+					i,                       
+					0,                       
+					0);                      
 
 				new_data_group_performances.push_back("");
 				common_substrings.push_back(common);

@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "Coordinates.hpp"
 
 Coordinates::Coordinates(size_t x, size_t y) :

@@ -134,7 +134,7 @@ Condition Condition::countStep(int new_condition_id)
 			{
 				return Condition(height,
 					width,
-					variant.new_data_group_performances[0],         //??
+					variant.new_data_group_performances[0],         
 					new_condition_id,
 					id,
 					data);

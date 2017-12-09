@@ -180,12 +180,12 @@ Condition Condition::countStep(int new_condition_id)
 
 void Condition::printDataInfo()
 {
-	cout << "State #" << id << endl
-		<< "Parent id#" << parent_id << endl
+	cout << "Condition " << id << endl
+		<< "Parent id " << parent_id << endl
 		<< "Height: " << height << endl
 		<< "Width: " << width << endl
 		<< "Base: " << group_performance_base << endl
-		<< "Comparative: ";
+		<< "Variant: ";
 
 	variant.printVariantInfo();
 

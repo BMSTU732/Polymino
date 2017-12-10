@@ -1,11 +1,11 @@
 Polymino figures: 
 
 0
-Array performance:
+Massive view:
 [ 0 , 0 ] 0 [ 0 , 1 ] 1 
 [ 1 , 0 ] 0 [ 1 , 1 ] 1 
 
-Group performances:
+Possible provisions:
 RDDLUU
 DLLURR
 LUURDD
@@ -15,8 +15,8 @@ ULLDRR
 RUULDD
 DRRULLL
 
-All valid sizes: 
+Available sizes: 
 [ 1 , 8 ] 
 [ 2 , 4 ] 
 
-Area: 8
+Square of the figure: 8

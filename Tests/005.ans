@@ -1,1 +1,183 @@
+Polymino figures: 
 
+0
+Array performance:
+[ 0 , 0 ] 0 [ 0 , 1 ] 0 [ 0 , 2 ] 0 
+[ 1 , 0 ] 1 [ 1 , 1 ] 1 [ 1 , 2 ] 1 
+[ 2 , 0 ] 0 [ 2 , 1 ] 0 [ 2 , 2 ] 0 
+
+Group performances:
+AAABCCCD
+BBBCDDDA
+CCCDAAAB
+DDDABBBC
+CCCBAAAD
+DDDCBBBA
+AAADCCCB
+BBBADDDC
+
+1
+Array performance:
+[ 0 , 0 ] 1 [ 0 , 1 ] 1 [ 0 , 2 ] 1 [ 0 , 3 ] 1 
+[ 1 , 0 ] 0 [ 1 , 1 ] 1 [ 1 , 2 ] 1 [ 1 , 3 ] 0 
+[ 2 , 0 ] 1 [ 2 , 1 ] 1 [ 2 , 2 ] 1 [ 2 , 3 ] 1 
+[ 3 , 0 ] 0 [ 3 , 1 ] 1 [ 3 , 2 ] 1 [ 3 , 3 ] 0 
+
+Group performances:
+AAAABCBABCBCCDCDADCD
+BBBBCDCBCDCDDADABADA
+CCCCDADCDADAABABCBAB
+DDDDABADABABBCBCDCBC
+CCCCBABCBABAADADCDAD
+DDDDCBCDCBCBBABADABA
+AAAADCDADCDCCBCBABCB
+BBBBADABADADDCDCBCDC
+
+2
+Array performance:
+[ 0 , 0 ] 0 [ 0 , 1 ] 0 [ 0 , 2 ] 1 [ 0 , 3 ] 1 
+[ 1 , 0 ] 0 [ 1 , 1 ] 1 [ 1 , 2 ] 1 [ 1 , 3 ] 1 
+[ 2 , 0 ] 0 [ 2 , 1 ] 0 [ 2 , 2 ] 1 [ 2 , 3 ] 0 
+[ 3 , 0 ] 0 [ 3 , 1 ] 1 [ 3 , 2 ] 1 [ 3 , 3 ] 0 
+
+Group performances:
+AABBCBBCCDADCDAD
+BBCCDCCDDABADABA
+CCDDADDAABCBABCB
+DDAABAABBCDCBCDC
+CCBBABBAADCDADCD
+DDCCBCCBBADABADA
+AADDCDDCCBABCBAB
+BBAADAADDCBCDCBC
+
+3
+Array performance:
+[ 0 , 0 ] 0 [ 0 , 1 ] 1 
+[ 1 , 0 ] 0 [ 1 , 1 ] 1 
+
+Group performances:
+ABBCDD
+BCCDAA
+CDDABB
+DAABCC
+CBBADD
+DCCBAA
+ADDCBB
+BAADCC
+
+4
+Array performance:
+[ 0 , 0 ] 0 [ 0 , 1 ] 1 
+[ 1 , 0 ] 1 [ 1 , 1 ] 1 
+
+Group performances:
+ABBCCDAD
+BCCDDABA
+CDDAABCB
+DAABBCDC
+CBBAADCD
+DCCBBADA
+ADDCCBAB
+BAADDCBC
+
+5
+Array performance:
+[ 0 , 0 ] 0 [ 0 , 1 ] 0 [ 0 , 2 ] 0 
+[ 1 , 0 ] 1 [ 1 , 1 ] 1 [ 1 , 2 ] 1 
+[ 2 , 0 ] 0 [ 2 , 1 ] 1 [ 2 , 2 ] 0 
+
+Group performances:
+AAABCBCDCD
+BBBCDCDADA
+CCCDADABAB
+DDDABABCBC
+CCCBABADAD
+DDDCBCBABA
+AAADCDCBCB
+BBBADADCDC
+
+6
+Array performance:
+[ 0 , 0 ] 1 [ 0 , 1 ] 1 
+[ 1 , 0 ] 0 [ 1 , 1 ] 0 
+
+Group performances:
+AABCCD
+BBCDDA
+CCDAAB
+DDABBC
+CCBAAD
+DDCBBA
+AADCCB
+BBADDC
+
+7
+Array performance:
+[ 0 , 0 ] 0 [ 0 , 1 ] 1 [ 0 , 2 ] 0 
+[ 1 , 0 ] 1 [ 1 , 1 ] 1 [ 1 , 2 ] 1 
+[ 2 , 0 ] 0 [ 2 , 1 ] 1 [ 2 , 2 ] 0 
+
+Group performances:
+ABABCBCDCDAD
+BCBCDCDADABA
+CDCDADABABCB
+DADABABCBCDC
+CBCBABADADCD
+DCDCBCBABADA
+ADADCDCBCBAB
+BABADADCDCBC
+
+8
+Array performance:
+[ 0 , 0 ] 0 [ 0 , 1 ] 1 [ 0 , 2 ] 0 
+[ 1 , 0 ] 1 [ 1 , 1 ] 1 [ 1 , 2 ] 0 
+[ 2 , 0 ] 1 [ 2 , 1 ] 0 [ 2 , 2 ] 0 
+
+Group performances:
+ABBCBCDDAD
+BCCDCDAABA
+CDDADABBCB
+DAABABCCDC
+CBBABADDCD
+DCCBCBAADA
+ADDCDCBBAB
+BAADADCCBC
+
+9
+Array performance:
+[ 0 , 0 ] 1 [ 0 , 1 ] 0 [ 0 , 2 ] 0 [ 0 , 3 ] 0 [ 0 , 4 ] 0 
+[ 1 , 0 ] 1 [ 1 , 1 ] 0 [ 1 , 2 ] 0 [ 1 , 3 ] 0 [ 1 , 4 ] 0 
+[ 2 , 0 ] 1 [ 2 , 1 ] 0 [ 2 , 2 ] 0 [ 2 , 3 ] 0 [ 2 , 4 ] 0 
+[ 3 , 0 ] 1 [ 3 , 1 ] 0 [ 3 , 2 ] 0 [ 3 , 3 ] 0 [ 3 , 4 ] 0 
+[ 4 , 0 ] 1 [ 4 , 1 ] 1 [ 4 , 2 ] 1 [ 4 , 3 ] 0 [ 4 , 4 ] 0 
+
+Group performances:
+ABBBBAABCCCDDDDD
+BCCCCBBCDDDAAAAA
+CDDDDCCDAAABBBBB
+DAAAADDABBBCCCCC
+CBBBBCCBAAADDDDD
+DCCCCDDCBBBAAAAA
+ADDDDAADCCCBBBBB
+BAAAABBADDDCCCCC
+
+10
+Array performance:
+[ 0 , 0 ] 0 [ 0 , 1 ] 0 [ 0 , 2 ] 1 
+[ 1 , 0 ] 1 [ 1 , 1 ] 1 [ 1 , 2 ] 1 
+[ 2 , 0 ] 0 [ 2 , 1 ] 0 [ 2 , 2 ] 0 
+
+Group performances:
+ABBCCCDAAD
+BCCDDDABBA
+CDDAAABCCB
+DAABBBCDDC
+CBBAAADCCD
+DCCBBBADDA
+ADDCCCBAAB
+BAADDDCBBC
+
+All valid sizes: 
+[ 6 , 9 ] 
+
+Area: 54

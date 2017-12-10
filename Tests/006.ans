@@ -1,1 +1,22 @@
+Polymino figures: 
 
+0
+Array performance:
+[ 0 , 0 ] 0 [ 0 , 1 ] 1 
+[ 1 , 0 ] 0 [ 1 , 1 ] 1 
+
+Group performances:
+ABBCDD
+BCCDAA
+CDDABB
+DAABCC
+CBBADD
+DCCBAA
+ADDCBB
+BAADCC
+
+All valid sizes: 
+[ 1 , 8 ] 
+[ 2 , 4 ] 
+
+Area: 8

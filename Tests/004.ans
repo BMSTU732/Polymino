@@ -1,13 +1,13 @@
 Polymino figures: 
 
 0
-Array performance:
+Massive view:
 [ 0 , 0 ] 1 [ 0 , 1 ] 0 [ 0 , 2 ] 0 [ 0 , 3 ] 0 
 [ 1 , 0 ] 1 [ 1 , 1 ] 0 [ 1 , 2 ] 0 [ 1 , 3 ] 0 
 [ 2 , 0 ] 1 [ 2 , 1 ] 1 [ 2 , 2 ] 0 [ 2 , 3 ] 0 
 [ 3 , 0 ] 1 [ 3 , 1 ] 1 [ 3 , 2 ] 0 [ 3 , 3 ] 0 
 
-Group performances:
+Possible provisions:
 RDDRDDLLUUUU
 DLLDLLUURRRR
 LUULUURRDDDD
@@ -18,12 +18,12 @@ RUURUULLDDDD
 DRRDRRUULLLL
 
 1
-Array performance:
+Massive view:
 [ 0 , 0 ] 1 [ 0 , 1 ] 1 [ 0 , 2 ] 1 
 [ 1 , 0 ] 1 [ 1 , 1 ] 1 [ 1 , 2 ] 1 
 [ 2 , 0 ] 0 [ 2 , 1 ] 0 [ 2 , 2 ] 0 
 
-Group performances:
+Possible provisions:
 RRRDDLLLUU
 DDDLLUUURR
 LLLUURRRDD
@@ -33,8 +33,8 @@ UUULLDDDRR
 RRRUULLLDD
 DDDRRUUULL
 
-All valid sizes: 
+Available sizes: 
 [ 3 , 8 ] 
 [ 4 , 6 ] 
 
-Area: 24
+Square of the figure: 24
